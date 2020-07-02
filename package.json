@@ -1,0 +1,25 @@
+{
+  "name": "parametizer",
+  "version": "1.0.0",
+  "license": "ISC",
+  "author": "Aurelien Dudonney",
+  "description": "Don't care about your function parameters, Parametizer arranges them according to your needs",
+  "keywords": ["parameters", "parameter", "param", "params", "arguments", "argument", "args", "manager", "manage", "spread", "spreads"],
+  "module": "src/index.js",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode production",
+    "lint": "eslint --cache --format codeframe --ext mjs,js src test"
+  },
+  "devDependencies": {
+    "@neutrinojs/jest": "^9.2.0",
+    "@neutrinojs/library": "^9.2.0",
+    "@neutrinojs/standardjs": "^9.2.0",
+    "eslint": "^7.3.1",
+    "jest": "^26.1.0",
+    "neutrino": "^9.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
