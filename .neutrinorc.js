@@ -9,8 +9,9 @@ module.exports = {
   use: [
     standard(),
     library({
-      name: 'parametizer'
+      name: 'parametizer',
+      clean: false,
     }),
-    jest(),
+    jest()
   ],
 };
