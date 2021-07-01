@@ -25,14 +25,14 @@
     "lint": "eslint --cache --format codeframe --ext mjs,js src test"
   },
   "devDependencies": {
-    "@neutrinojs/jest": "^9.2.0",
-    "@neutrinojs/library": "^9.2.0",
-    "@neutrinojs/standardjs": "^9.2.0",
+    "@neutrinojs/jest": "^9.5.0",
+    "@neutrinojs/library": "^9.5.0",
+    "@neutrinojs/standardjs": "^9.5.0",
     "eslint": "^7.3.1",
     "jest": "^26.1.0",
-    "neutrino": "^9.2.0",
+    "neutrino": "^9.5.0",
     "path": "^0.12.7",
-    "webpack": "^4.43.0",
+    "webpack": "4.46.0",
     "webpack-cli": "^3.3.12"
   }
 }
